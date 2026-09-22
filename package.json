@@ -1,0 +1,24 @@
+{
+  "name": "el-chili-negro-web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide-vue-next": "^1.0.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "tailwindcss": "^4.0.0",
+    "@tailwindcss/vite": "^4.0.0",
+    "typescript": "~5.7.3",
+    "vite": "^6.2.0",
+    "vue-tsc": "^2.2.8"
+  }
+}

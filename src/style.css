@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    background-color: #FAF6EE !important;
+    color: #140803;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+.font-black-display {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+}
+
+/* ==================== ANIMACIONES DE BALANCEO NATURAL ==================== */
+@keyframes windSway1 {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(1.8deg) translateY(-2px); }
+}
+
+@keyframes windSway2 {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(-1.8deg) translateY(-2px); }
+}
+
+.animate-sway-1 {
+  animation: windSway1 4.5s ease-in-out infinite;
+  transform-origin: top center;
+}
+
+.animate-sway-2 {
+  animation: windSway2 5s ease-in-out infinite;
+  transform-origin: top center;
+}
+
+.papel-banner-item {
+  transform-origin: top center;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.papel-banner-item:hover {
+  transform: translateY(-4px) scale(1.06) rotate(1deg) !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #EDE4D3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C29A5B;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #F59E0B;
+}

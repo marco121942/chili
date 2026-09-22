@@ -1,0 +1,1 @@
+{"root":["./src/main.ts","./src/vite-env.d.ts","./src/app.vue","./src/components/companystory.vue","./src/components/headernav.vue","./src/components/herosection.vue","./src/components/locationmapsection.vue","./src/components/menusection.vue","./src/components/pageloader.vue","./src/components/papelbanderilla.vue","./src/components/promoslider.vue"],"version":"6.0.3"}
